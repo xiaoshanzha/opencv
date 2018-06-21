@@ -1,0 +1,9 @@
+﻿  basic.cpp
+basic.obj : error LNK2019: 无法解析的外部符号 "void __cdecl cv::fastFree(void *)" (?fastFree@cv@@YAXPAX@Z)，该符号在函数 "public: __thiscall cv::Mat::~Mat(void)" (??1Mat@cv@@QAE@XZ) 中被引用
+basic.obj : error LNK2019: 无法解析的外部符号 "private: void __thiscall cv::String::deallocate(void)" (?deallocate@String@cv@@AAEXXZ)，该符号在函数 "public: __thiscall cv::String::~String(void)" (??1String@cv@@QAE@XZ) 中被引用
+basic.obj : error LNK2019: 无法解析的外部符号 "public: class cv::Mat & __thiscall cv::Mat::operator=(class cv::Scalar_<double> const &)" (??4Mat@cv@@QAEAAV01@ABV?$Scalar_@N@1@@Z)，该符号在函数 "public: __thiscall cv::Mat::Mat(int,int,int,class cv::Scalar_<double> const &)" (??0Mat@cv@@QAE@HHHABV?$Scalar_@N@1@@Z) 中被引用
+basic.obj : error LNK2019: 无法解析的外部符号 "public: void __thiscall cv::Mat::create(int,int const *,int)" (?create@Mat@cv@@QAEXHPBHH@Z)，该符号在函数 "public: void __thiscall cv::Mat::create(int,int,int)" (?create@Mat@cv@@QAEXHHH@Z) 中被引用
+basic.obj : error LNK2019: 无法解析的外部符号 "public: void __thiscall cv::Mat::deallocate(void)" (?deallocate@Mat@cv@@QAEXXZ)，该符号在函数 "public: void __thiscall cv::Mat::release(void)" (?release@Mat@cv@@QAEXXZ) 中被引用
+basic.obj : error LNK2019: 无法解析的外部符号 "void __cdecl cv::randu(class cv::debug_build_guard::_InputOutputArray const &,class cv::debug_build_guard::_InputArray const &,class cv::debug_build_guard::_InputArray const &)" (?randu@cv@@YAXABV_InputOutputArray@debug_build_guard@1@ABV_InputArray@31@1@Z)，该符号在函数 _main 中被引用
+basic.obj : error LNK2019: 无法解析的外部符号 "public: static struct cv::Ptr<class cv::Formatter> __cdecl cv::Formatter::get(int)" (?get@Formatter@cv@@SA?AU?$Ptr@VFormatter@cv@@@2@H@Z)，该符号在函数 "class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl cv::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,class cv::Mat const &)" (??6cv@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@std@@AAV12@ABVMat@0@@Z) 中被引用
+D:\opencv代码\数据结构与基本绘图\Debug\数据结构与基本绘图.exe : fatal error LNK1120: 7 个无法解析的外部命令
