@@ -1,0 +1,6 @@
+﻿  源1.cpp
+d:\opencv代码\图像操作\图像操作\源1.cpp(4): error C3861: “getTickCount”: 找不到标识符
+d:\opencv代码\图像操作\图像操作\源1.cpp(5): error C3861: “getTickCount”: 找不到标识符
+d:\opencv代码\图像操作\图像操作\源1.cpp(5): error C3861: “getTickFrequency”: 找不到标识符
+d:\opencv代码\图像操作\图像操作\源1.cpp(6): error C2065: “cout”: 未声明的标识符
+d:\opencv代码\图像操作\图像操作\源1.cpp(6): error C2065: “endl”: 未声明的标识符
