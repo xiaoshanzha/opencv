@@ -1,3 +1,4 @@
 ﻿  源1.cpp
+d:\opencv代码\图像操作\图像操作\源1.cpp(21): warning C4244: “初始化”: 从“int64”转换到“double”，可能丢失数据
   图像操作.vcxproj -> D:\opencv代码\图像操作\x64\Debug\图像操作.exe
   图像操作.vcxproj -> D:\opencv代码\图像操作\x64\Debug\图像操作.pdb (Full PDB)

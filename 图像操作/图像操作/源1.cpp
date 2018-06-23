@@ -10,6 +10,7 @@ void ROI_AddImage();
 void mix();
 void ROI_mix();
 static void on_ContrastAndRight(int, void *);
+void channel_mix();
 
 
 int duibidu, liangdu;
@@ -31,6 +32,7 @@ int main()
 	//mix();
 	//ROI_mix();
 
+	/*
 	srcImage = imread("1.jpg");
 	dstImage = Mat::zeros(srcImage.size(), srcImage.type());
 	duibidu = 80;
@@ -42,8 +44,9 @@ int main()
 	while (char(waitKey(1))!='q') //按下‘q’退
 	{
 
-	}
-
+	}*/
+	channel_mix();
+	waitKey();
 	return 0;
 }
 
@@ -109,5 +112,19 @@ static void on_ContrastAndRight(int, void *)
 	}
 	imshow("原始图", srcImage);
 	imshow("效果图", dstImage);
+}
+
+void channel_mix()  //分离颜色通道
+{
+	vector<Mat> channels,R_B;
+	Mat imageBlueChannel, imageGreenChannel, imageRedChannel,image,image_R_B;
+	image = imread("1.jpg");
+	split(image, channels);  //把一个三通道彩色图像转换成3个单通道灰度图像
+	imageBlueChannel = channels.at(0);
+	imageGreenChannel = channels.at(1);
+	imageRedChannel = channels.at(2);
+	imshow("蓝色通道", imageBlueChannel);
+	imshow("绿色通道", imageGreenChannel);
+	imshow("红色通道", imageRedChannel);  //显示了三个灰度图像，但灰度值是不同的
 }
 
