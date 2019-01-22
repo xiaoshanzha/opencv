@@ -44,7 +44,8 @@ dst为要保存的Mat图片
 ```
 ---
 * RGB图像通道的排列顺序是BGR, 矩阵表示如下：
-![](https://upload-images.jianshu.io/upload_images/10460153-7c06b85c01f2a4ed.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+    ![](https://upload-images.jianshu.io/upload_images/10460153-7c06b85c01f2a4ed.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ---
 * 读取图像像素
 ```
