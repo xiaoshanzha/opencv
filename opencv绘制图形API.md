@@ -1,7 +1,6 @@
-##opencv  绘制图形API
 [TOC]
-####效果展示:
-
+## opencv  绘制图形API
+#### 效果展示:
 ![](https://upload-images.jianshu.io/upload_images/10460153-277e7031c9b7051c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 * 随机线生成效果：
 
