@@ -2,6 +2,7 @@
 ## opencv  绘制图形API
 #### 效果展示:
 ![](https://upload-images.jianshu.io/upload_images/10460153-277e7031c9b7051c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 * 随机线生成效果：
 
 ![](https://upload-images.jianshu.io/upload_images/10460153-23172efc7e98370b.gif?imageMogr2/auto-orient/strip)
@@ -29,6 +30,7 @@ void arrowedLine(InputOutputArray img, Point pt1, Point pt2, const Scalar& color
 最后一个参数 tipLength ：箭头尖端相对于箭头长度的长度
 ```
 以下是tipLength分别为0.1和0.5的对比:
+
 ![](https://upload-images.jianshu.io/upload_images/10460153-7eaf7ada5e06c0eb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)    ![](https://upload-images.jianshu.io/upload_images/10460153-48bf71730bfa527c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ---
@@ -77,7 +79,7 @@ void putText(InputOutputArray img, const String& text, Point org, int fontFace, 
 参数bottomLeftOrigin : 为真时，图像数据原点位于左下角。否则，它在左上角。
 ```
 ---
-####随机线生成
+#### 随机线生成
 ```c
 void RandomLineDemo() {
 	RNG rng(12345);
@@ -100,7 +102,7 @@ void RandomLineDemo() {
 }
 ```
 ---
-####实现代码
+#### 实现代码
 ```c
 void My_arrowLine()
 {
