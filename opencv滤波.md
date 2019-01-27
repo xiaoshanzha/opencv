@@ -95,3 +95,15 @@ void bilateralFilter(InputArray src, OutputArray dst, int d, double sigmaColor, 
 参数sigmaSpace : 在坐标空间中过滤西格玛。 较大的参数值意味着只要它们的颜色足够接近，更远的像素也会相互影响（参见sigmaColor）。 当d> 0时，无论sigmaSpace如何，它都指定邻域大小。 否则，d与sigmaSpace成比例。
 ```
 ![](https://upload-images.jianshu.io/upload_images/10460153-eb2050bf1a759d58.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+---
+
+
+##### 图像卷积运算
+```
+void filter2D(InputArray src, OutputArray dst, int ddepth, InputArray kernel, Point anchor=Point(-1,-1), double delta=0, int borderType=BORDER_DEFAULT )
+参数ddepth: 目标图像深度，如果没写将生成与原图像深度相同的图像。当ddepth输入值为-1时，目标图像和原图像深度保持一致。
+参数delta ：在储存目标图像前可选的添加到像素的值，默认值为0
+
+改变卷积核kernel，可实现各种图像运算
+```
