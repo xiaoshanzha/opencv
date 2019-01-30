@@ -1,3 +1,0 @@
-﻿  Trackbar.cpp
-d:\opencv代码\滑动条的创建与使用\滑动条的创建与使用\trackbar.cpp(27): error C2664: “int cv::createTrackbar(const cv::String &,const cv::String &,int *,int,cv::TrackbarCallback,void *)”: 无法将参数 5 从“void (__cdecl *)(void *)”转换为“cv::TrackbarCallback”
-  d:\opencv代码\滑动条的创建与使用\滑动条的创建与使用\trackbar.cpp(27): note: 在匹配目标类型的范围内没有具有该名称的函数
